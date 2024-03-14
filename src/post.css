@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .w-44 {
+      width: 100px; /* Adjust width for smaller screens */
+    }
+    .text-3xl {
+      font-size: 24px; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .w-44 {
+      width: 80px; /* Further adjust width for even smaller screens */
+    }
+    .text-3xl {
+      font-size: 20px; /* Further adjust font size for even smaller screens */
+    }
+  }
+  .text-container {
+    width: 100%; /* Adjust the width as needed */
+    max-width:fit-content; /* Ensure it doesn't exceed the parent's width */
+    overflow-wrap:break-word; /* Enable word wrapping */
+    max-height: fit-content;
+}
